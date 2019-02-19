@@ -32,7 +32,8 @@ var app = http.createServer(function(req, res) {
 		kyma_cluster = q.kyma_cluster;
 	console.log("kyma_cluster "+kyma_cluster)
 
-	orders_endpoint = "https://"+kyma_env+"."+kyma_cluster+".cluster.extend.sap.cx/orders"	
+	//orders_endpoint = "https://"+kyma_env+"."+kyma_cluster+".cluster.extend.sap.cx/orders"	
+	orders_endpoint = "https://rh-orders-cloudlab4.ibso-sandbox"+".cluster.extend.sap.cx/orders"
 	res.writeHead(200, {'Content-Type': 'text/html'});
 	res.end(homepage);
 
