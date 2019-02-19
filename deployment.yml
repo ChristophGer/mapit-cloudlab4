@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
         - name: cloudlab4
-          image: kenlomax/mapit-cloudlab4:latest
+          image: christophger/cloudlab4:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 3001
