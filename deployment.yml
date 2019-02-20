@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
         - name: cloudlab4
-          image: christophger/cloudlab4:v3
+          image: christophger/cloudlab4:v4
           imagePullPolicy: Always
           ports:
             - containerPort: 3001
